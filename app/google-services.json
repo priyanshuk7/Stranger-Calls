@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "462287586104",
+    "project_id": "strangercalls-d8a14",
+    "storage_bucket": "strangercalls-d8a14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462287586104:android:193448f022ddf3fc4577cd",
+        "android_client_info": {
+          "package_name": "com.example.strangercalls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462287586104-1d6s8r6dabkcqu8basarq700616h5u7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.strangercalls",
+            "certificate_hash": "b2a5fc77366b36ab97f3c9df06369fd85f4fc038"
+          }
+        },
+        {
+          "client_id": "462287586104-slqv62rtdq5ig8ru26j7dou8qa4vesa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdXM0IEWle6fHxm39QNKoeVaGEwsrX6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462287586104-slqv62rtdq5ig8ru26j7dou8qa4vesa8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
