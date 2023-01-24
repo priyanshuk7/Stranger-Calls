@@ -6,7 +6,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.strangercalls.databinding.ActivityCopyOfConnectingBinding;
+import com.example.strangercalls.databinding.ActivityConnectingBinding;
+//import com.example.strangercalls.databinding.ActivityCopyOfConnectingBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -17,20 +18,12 @@ import com.google.firebase.database.ValueEventListener;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
-/*
-public class CopyOfConnecting extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_copy_of_connecting);
-    }
-}*/
 
 public class ConnectingActivity extends AppCompatActivity {
 
     //ActivityConnectingBinding binding;
-    ActivityCopyOfConnectingBinding binding;
+    ActivityConnectingBinding binding;
     FirebaseAuth auth;
     FirebaseDatabase database;
     boolean isOkay = false;
@@ -38,7 +31,7 @@ public class ConnectingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityCopyOfConnectingBinding.inflate(getLayoutInflater());
+        binding = ActivityConnectingBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         auth = FirebaseAuth.getInstance();

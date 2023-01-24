@@ -29,15 +29,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.UUID;
 
-/*
-public class NewCallingActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_calling);
-    }
-}*/
 
 public class NewCallingActivity extends AppCompatActivity {
 
